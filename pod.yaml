@@ -1,0 +1,10 @@
+	apiVersion: v1
+	kind: Pod
+	metadata:
+	  name: apache-pod
+	spec:
+	  containers:
+	    - name: con-one
+	      image: ubuntu/apache2
+	      ports:
+	        - containerPort : 80
